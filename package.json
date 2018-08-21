@@ -1,0 +1,37 @@
+{
+  "name": "myreactpro",
+  "version": "1.0.0",
+  "description": "myfirstreactproject",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --config webpack/webpack.config.js",
+    "devTo": "node bin/dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yinxuejing123/ReactPro.git"
+  },
+  "keywords": [
+    "myfirstpro"
+  ],
+  "author": "yinxuejing",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yinxuejing123/ReactPro/issues"
+  },
+  "homepage": "https://github.com/yinxuejing123/ReactPro#readme",
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.16.5",
+    "webpack-dev-server": "^3.1.5"
+  }
+}
